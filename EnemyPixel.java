@@ -17,7 +17,7 @@ public class EnemyPixel {
         this.xPosition = xPosition;
         this.yPosition = yPosition;
         // 2. Set the default image - all enemies have same image
-        this.image = BitmapFactory.decodeResource(context.getResources(),R.drawable.architectonic);
+        this.image = BitmapFactory.decodeResource(context.getResources(),R.drawable.block);
 
         this.hitbox = new Rect(
                 this.xPosition,
